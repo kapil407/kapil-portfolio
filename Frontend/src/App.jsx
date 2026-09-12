@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
+import { SiLeetcode, SiGeeksforgeeks } from "react-icons/si";
 import {
   ArrowUpRight,
   Award,
@@ -226,7 +227,7 @@ function App() {
                 <h3 className="mt-5 text-lg font-semibold text-white">{item.title}</h3>
                 <p className="mt-2 text-sm font-medium text-emerald-300">{item.value}</p>
                 <p className="mt-4 text-sm leading-6 text-slate-300">{item.description}</p>
-                {
+                {/* {
                   item.title=="Coding Achievements" ?(
                     <div className='mt-2 flex justify-evenly '>
                     <a href={item.gfgUrl} className='mr-4 border px-4 py-1 rounded-full  text-emerald-300' 
@@ -234,7 +235,7 @@ function App() {
                     <a href={item.leetcodeUrl} className='mr-4 border px-4 py-1 rounded-full  text-emerald-300'  target='_blank' >LeetCode</a>
                     </div>
                   ):""
-                }
+                } */}
               </motion.article>
             ))}
           </div>
@@ -244,9 +245,16 @@ function App() {
           <SectionHeader eyebrow="Contact" title="Let’s build something dependable." description="Reach out for software development roles, backend projects, or collaboration opportunities." />
           <div className="mx-auto grid max-w-6xl gap-6 lg:grid-cols-[0.85fr_1.15fr]">
             <div className="rounded-lg border border-white/10 bg-white/[0.045] p-6 backdrop-blur-md">
-              <ContactItem icon={Mail} label="Email" value={portfolio.email} href={`mailto:${portfolio.email}`} />
+             <ContactItem
+  icon={Mail}
+  label="Email"
+  value={portfolio.email}
+  href={`https://mail.google.com/mail/?view=cm&fs=1&to=${portfolio.email}&su=Portfolio%20Contact`}
+/>
               <ContactItem icon={Network} label="LinkedIn" value="Connect on LinkedIn" href={portfolio.socials.linkedin} />
               <ContactItem icon={GitBranch} label="GitHub" value="View code profile" href={portfolio.socials.github} />
+              <ContactItem icon={SiLeetcode} label="Leetcode" value="View Leetcode profile" href={portfolio?.socials?.LeetcodeUrl} />
+              <ContactItem icon={SiGeeksforgeeks} label="gfg" value="View gfg profile" href={portfolio?.socials?.GeeksforGeeksUrl} />
             </div>
             <form className="rounded-lg border border-white/10 bg-white/[0.045] p-6 backdrop-blur-md" onSubmit={handleContactSubmit}>
               <div className="grid gap-4 sm:grid-cols-2">

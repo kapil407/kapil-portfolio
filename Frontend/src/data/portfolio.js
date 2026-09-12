@@ -10,6 +10,9 @@ export const portfolio = {
   socials: {
     github: 'https://github.com/kapil407',
     linkedin: 'https://www.linkedin.com/in/kapil-kumar-148b08305/',
+    LeetcodeUrl:"https://leetcode.com/u/keerkapil/",
+  GeeksforGeeksUrl:"https://www.geeksforgeeks.org/profile/kapilke7eoc?tab=activity",
+    
   },
   about:
     'Software Developer focused on solving practical engineering problems with clean, maintainable code. I enjoy backend development, designing REST APIs, working with databases, and building scalable applications that stay reliable as they grow.',
@@ -122,8 +125,8 @@ export const portfolio = {
     {
   title: 'Coding Achievements',
   value: '550+ DSA Problems',
-  gfgUrl:"https://www.geeksforgeeks.org/profile/kapilke7eoc?tab=activity",
-  leetcodeUrl:"https://leetcode.com/u/keerkapil/",
+  
+  
   description:
     'Solved 450+ problems on LeetCode and 100+ on GeeksforGeeks, strengthening problem-solving skills across core data structures and algorithms.',
 },
