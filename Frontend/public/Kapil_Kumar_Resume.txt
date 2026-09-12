@@ -1,0 +1,18 @@
+Kapil Kumar
+Software Developer
+
+Email: kapilkumar.dev@example.com
+GitHub: https://github.com/kapilkumar
+LinkedIn: https://www.linkedin.com/in/kapil-kumar/
+
+Summary
+Software Developer focused on backend development, REST APIs, scalable applications, and clean maintainable code.
+
+Core Skills
+Java, C++, JavaScript, SQL, Spring Boot, REST APIs, MySQL, Git, GitHub, Postman, VS Code, HTML, CSS, React.js
+
+Featured Project
+BlueNest - Social media platform designed for user profiles, post creation, feed interactions, and database-backed social engagement workflows.
+
+Note
+Update this file with your full resume details or replace it with a PDF using the same path referenced in src/data/portfolio.js.
