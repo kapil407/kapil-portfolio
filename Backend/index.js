@@ -11,16 +11,14 @@ dotenv.config()
 
 const app = express()
 const port = process.env.PORT || 1000
-const allowedOrigins = (
-  process.env.CLIENT_ORIGIN ||'http://localhost:5173'
-)
-  .split(',')
-  .map((origin) => origin.trim())
+// const allowedOrigins = ('https://kapil-portfolio-mxaw.onrender.com/')
+//   .split(',')
+//   .map((origin) => origin.trim())
 
 app.use(
   cors({
-    origin: allowedOrigins,
-    methods: ['GET', 'POST'],
+    origin: "https://kapil-portfolio-mxaw.onrender.com",
+    credentials:true
   }),
 )
 app.use(express.json({ limit: '10kb' }))
