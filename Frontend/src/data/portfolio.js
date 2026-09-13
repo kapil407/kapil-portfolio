@@ -5,7 +5,7 @@ export const portfolio = {
     'I build dependable backend systems, clean web interfaces, and scalable applications that turn product ideas into production-ready software.',
   location: 'India',
   email: 'kapilkeer1998@gmail.com',
-  apiUrl: 'http://localhost:1000/api',
+  apiUrl: 'https://portfolio-backend-thsz.onrender.com/api',
   resumeUrl: 'https://drive.google.com/file/d/1wsptlBVRE8rwENofSmi8nA0IExjfo8bN/view?usp=sharing',
   socials: {
     github: 'https://github.com/kapil407',
