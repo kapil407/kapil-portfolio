@@ -145,7 +145,7 @@ function App() {
         </section>
 
         <MotionSection id="about" className="px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between ">
+          <div className="flex justify-between flex-col lg:flex-row ">
             <div className="mx-auto max-w-7xl gap-8 flex flex-col">
               <div>
                 <p className="text-sm font-semibold uppercase tracking-[0.24em] text-emerald-300">
