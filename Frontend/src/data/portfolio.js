@@ -37,8 +37,8 @@ export const portfolio = {
       // impact:
       //   'Built with a focus on structured backend logic, maintainable feature modules, and a user experience that can scale as engagement grows.',
       features: [
-        'Implemented secure authentication using JWT access/refresh tokens, hashed refresh-token storage, automatic token renewal, and session revocation.',
-        'Added OTP verification, real-time login alerts, secure logout, and logout-from-all-devices functionality',
+        'Implemented secure authentication using Google OAuth2.0 for user identification, followed by custom JWT Access/RefreshToken generation, Hashed Refresh Token Storage, Automatic Access Token Renewal, and Logout-from-All-Devices session revocation.',
+        'Added OTP verification, real-time login alerts, secure logout',
         'Built real-time one-to-one messaging using Socket.IO for instant user communication.',
         'Integrated Cloudinary for optimized media storage and retrieval of posts, profile images, and comments.',
         'Implemented Redux Toolkit for centralized state management and reduced prop drilling.',
