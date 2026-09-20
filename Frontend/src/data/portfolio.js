@@ -6,7 +6,7 @@ export const portfolio = {
   location: 'India',
   email: 'kapilkeer1998@gmail.com',
   apiUrl: 'https://portfolio-backend-thsz.onrender.com/api',
-  resumeUrl: 'https://drive.google.com/file/d/1wsptlBVRE8rwENofSmi8nA0IExjfo8bN/view?usp=sharing',
+  resumeUrl: 'https://drive.google.com/file/d/15RXCeog_jCGS9ZvK5kYPwDZSLY84PKFq/view?usp=drive_link',
   socials: {
     github: 'https://github.com/kapil407',
     linkedin: 'https://www.linkedin.com/in/kapil-kumar-148b08305/',
